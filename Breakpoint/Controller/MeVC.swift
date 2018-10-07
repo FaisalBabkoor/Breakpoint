@@ -136,7 +136,7 @@ class MeVC: UIViewController, UIImagePickerControllerDelegate, UINavigationContr
             }
         }
         alert.addAction(action)
-        present(alert, animated: true, completion: nil)
+       // present(alert, animated: true, completion: nil)
         present(alert, animated: true) {
             self.imageProfile.image = #imageLiteral(resourceName: "defaultProfileImage")
             self.emailLbl.text = ""

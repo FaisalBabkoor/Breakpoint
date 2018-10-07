@@ -15,7 +15,7 @@ class FeedCell: UITableViewCell {
     @IBOutlet var messageLbl: UILabel!
     
     func configCell(message: Message, email: String, photo: String){
-        DispatchQueue.global(qos: .background).async {
+        DispatchQueue.global(qos: .userInteractive).async {
             guard let url = URL(string: photo) else {return}
 
         URLSession.shared.dataTask(with: url, completionHandler: { (data, response, error) in

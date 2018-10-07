@@ -39,7 +39,7 @@
                                                 <color key="textColor" red="0.015686274510000001" green="0.6705882353" blue="0.7725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uFi-Qc-Sl3" customClass="FBSDKLoginButton">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uFi-Qc-Sl3">
                                                 <rect key="frame" x="0.0" y="51" width="295" height="60"/>
                                                 <color key="backgroundColor" red="0.2627450980392157" green="0.35686274509803922" blue="0.56862745098039214" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                                 <constraints>
@@ -101,9 +101,6 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="B78-7C-RHw"/>
                     </view>
-                    <connections>
-                        <outlet property="FBLogin" destination="uFi-Qc-Sl3" id="0AE-j5-Q3u"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uBe-MA-Rdg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
